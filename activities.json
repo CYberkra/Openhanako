@@ -1,5 +1,44 @@
 [
   {
+    "id": "hb_1776259080021",
+    "type": "heartbeat",
+    "label": null,
+    "agentId": "hanako",
+    "agentName": "Hanako",
+    "startedAt": 1776259080021,
+    "finishedAt": 1776259102464,
+    "summary": "巡检发现新增残留文件 `nul`，使用 `ls`、`bash`、`read` 确认无需处理；学习笔记已完整，本轮静默不打扰。",
+    "sessionFile": "2026-04-15T13-18-00-022Z_edbe1f59-1413-4ad5-a275-813669f809ac.jsonl",
+    "status": "done",
+    "error": null
+  },
+  {
+    "id": "hb_1776257220059",
+    "type": "heartbeat",
+    "label": null,
+    "agentId": "hanako",
+    "agentName": "Hanako",
+    "startedAt": 1776257220059,
+    "finishedAt": 1776257526307,
+    "summary": "巡检中阅读了用户最新项目PPT和运动补偿伪代码PDF，使用`write`工具整理学习笔记到`HeartBeat/Hanako/uav-gpr-motion-compensation-notes.md`，重点梳理了5大补偿模块及CCBS背景抑制、方位低通滤波等关键算法。",
+    "sessionFile": "2026-04-15T12-47-00-061Z_abc18112-7d98-492a-a117-cae55e072692.jsonl",
+    "status": "done",
+    "error": null
+  },
+  {
+    "id": "hb_1776255360049",
+    "type": "heartbeat",
+    "label": null,
+    "agentId": "hanako",
+    "agentName": "Hanako",
+    "startedAt": 1776255360049,
+    "finishedAt": 1776255380727,
+    "summary": "巡检完毕。使用 ls 检查工作区新增文件，read 读取图片确认内容为动漫表情包，edit 更新巡检日志，判断无需处理。",
+    "sessionFile": "2026-04-15T12-16-00-051Z_97a1688f-2b5b-4010-a18a-bf0af394bc63.jsonl",
+    "status": "done",
+    "error": null
+  },
+  {
     "id": "cron_1776254401774",
     "type": "cron",
     "label": "daily-token-usage-monitor",
