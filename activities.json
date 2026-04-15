@@ -1,5 +1,18 @@
 [
   {
+    "id": "cron_1776254401774",
+    "type": "cron",
+    "label": "daily-token-usage-monitor",
+    "agentId": "hanako",
+    "agentName": "Hanako",
+    "startedAt": 1776254401774,
+    "finishedAt": 1776254701814,
+    "summary": "调用 recall_experience、search_memory 查询历史 token 数据，使用 todo_write 拆解监控步骤，通过 channel 发送 token 使用警报与报告，完成日常巡检。",
+    "sessionFile": "2026-04-15T12-00-01-776Z_f1a2b8d7-332a-436c-91f2-f8d5df9499e5.jsonl",
+    "status": "done",
+    "error": null
+  },
+  {
     "id": "hb_1776253500033",
     "type": "heartbeat",
     "label": null,
