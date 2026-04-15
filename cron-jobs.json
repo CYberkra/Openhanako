@@ -55,7 +55,35 @@
       "createdAt": "2026-04-15T11:51:23.594Z",
       "lastRunAt": null,
       "nextRunAt": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "job_6",
+      "type": "cron",
+      "schedule": "0 9 * * 1",
+      "prompt": "检查技能更新并生成报告。步骤：1) 检查 Hanako 已安装技能是否有更新 2) 生成更新报告 3) 汇报给用户。注意：Hanako 的技能更新机制可能与 OpenClaw 不同，如有差异请说明。",
+      "mode": "isolated",
+      "label": "weekly-skill-check",
+      "model": "",
+      "enabled": true,
+      "consecutiveErrors": 0,
+      "createdAt": "2026-04-15T11:56:17.192Z",
+      "lastRunAt": null,
+      "nextRunAt": "2026-04-20T01:00:00.000Z"
+    },
+    {
+      "id": "job_7",
+      "type": "cron",
+      "schedule": "0 20 * * *",
+      "prompt": "Token 使用监控。步骤：1) 统计当日 API 调用情况 2) 估算 token 消耗量 3) 对比月度预算(99元) 4) 如超过 80% 发送警报 5) 生成使用报告 6) 汇报当前使用状况。",
+      "mode": "isolated",
+      "label": "daily-token-usage-monitor",
+      "model": "",
+      "enabled": true,
+      "consecutiveErrors": 0,
+      "createdAt": "2026-04-15T11:56:17.207Z",
+      "lastRunAt": null,
+      "nextRunAt": "2026-04-15T12:00:00.000Z"
     }
   ],
-  "nextNum": 6
+  "nextNum": 8
 }
