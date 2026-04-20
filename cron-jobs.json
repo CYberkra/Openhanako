@@ -11,8 +11,8 @@
       "enabled": true,
       "consecutiveErrors": 0,
       "createdAt": "2026-04-15T11:51:19.513Z",
-      "lastRunAt": null,
-      "nextRunAt": "2026-04-16T01:00:00.000Z"
+      "lastRunAt": "2026-04-20T05:30:15.097Z",
+      "nextRunAt": "2026-04-21T01:00:00.000Z"
     },
     {
       "id": "job_3",
@@ -23,10 +23,10 @@
       "label": "daily-github-sync-check",
       "model": "",
       "enabled": true,
-      "consecutiveErrors": 0,
+      "consecutiveErrors": 1,
       "createdAt": "2026-04-15T11:51:19.523Z",
-      "lastRunAt": null,
-      "nextRunAt": "2026-04-16T04:00:00.000Z"
+      "lastRunAt": "2026-04-20T05:35:15.117Z",
+      "nextRunAt": "2026-04-21T04:00:00.000Z"
     },
     {
       "id": "job_4",
@@ -39,8 +39,8 @@
       "enabled": true,
       "consecutiveErrors": 0,
       "createdAt": "2026-04-15T11:51:19.535Z",
-      "lastRunAt": null,
-      "nextRunAt": "2026-04-19T15:00:00.000Z"
+      "lastRunAt": "2026-04-20T05:36:26.052Z",
+      "nextRunAt": "2026-04-26T15:00:00.000Z"
     },
     {
       "id": "job_5",
@@ -53,8 +53,8 @@
       "enabled": true,
       "consecutiveErrors": 0,
       "createdAt": "2026-04-15T11:51:23.594Z",
-      "lastRunAt": null,
-      "nextRunAt": "2026-04-16T00:00:00.000Z"
+      "lastRunAt": "2026-04-20T05:37:09.414Z",
+      "nextRunAt": "2026-04-21T00:00:00.000Z"
     },
     {
       "id": "job_6",
@@ -67,8 +67,8 @@
       "enabled": true,
       "consecutiveErrors": 0,
       "createdAt": "2026-04-15T11:56:17.192Z",
-      "lastRunAt": null,
-      "nextRunAt": "2026-04-20T01:00:00.000Z"
+      "lastRunAt": "2026-04-20T05:38:14.700Z",
+      "nextRunAt": "2026-04-27T01:00:00.000Z"
     },
     {
       "id": "job_7",
@@ -79,10 +79,10 @@
       "label": "daily-token-usage-monitor",
       "model": "",
       "enabled": true,
-      "consecutiveErrors": 1,
+      "consecutiveErrors": 0,
       "createdAt": "2026-04-15T11:56:17.207Z",
-      "lastRunAt": "2026-04-15T12:05:01.808Z",
-      "nextRunAt": "2026-04-16T12:00:00.000Z"
+      "lastRunAt": "2026-04-20T05:42:19.478Z",
+      "nextRunAt": "2026-04-20T12:00:00.000Z"
     }
   ],
   "nextNum": 8
