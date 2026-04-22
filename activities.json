@@ -1,5 +1,18 @@
 [
   {
+    "id": "hb_1776880799508",
+    "type": "heartbeat",
+    "label": null,
+    "agentId": "hanako",
+    "agentName": "Hanako",
+    "startedAt": 1776880799508,
+    "finishedAt": 1776880913902,
+    "summary": "巡检完毕，使用 ls、bash、read、web_search、edit 检查工作区与近期记忆，无新增待办事项，无需操作。",
+    "sessionFile": "2026-04-22T17-59-59-508Z_53ae9a30-94d7-4d7d-aeef-f8c755f72f56.jsonl",
+    "status": "done",
+    "error": null
+  },
+  {
     "id": "cron_1776875661459",
     "type": "cron",
     "label": "daily-token-usage-monitor",
@@ -1283,19 +1296,6 @@
     "finishedAt": 1776326295502,
     "summary": "巡检完毕，一切正常",
     "sessionFile": "2026-04-16T07-54-00-072Z_7fd47d65-4204-46b5-90a7-1ef56fcc4e30.jsonl",
-    "status": "done",
-    "error": null
-  },
-  {
-    "id": "hb_1776324180048",
-    "type": "heartbeat",
-    "label": null,
-    "agentId": "hanako",
-    "agentName": "Hanako",
-    "startedAt": 1776324180048,
-    "finishedAt": 1776324425844,
-    "summary": "巡检完毕，一切正常。",
-    "sessionFile": "2026-04-16T07-23-00-048Z_02b718b7-03e4-4d13-a509-1095530cd1f0.jsonl",
     "status": "done",
     "error": null
   }
